@@ -19,8 +19,9 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('telefone');
             $table->string('cpf')->unique();
-            $table->unsignedBigInteger('usuario_convite')->nullable();
-            $table->foreign('usuario_convite')->references('id')->on('users');
+            $table->string('tipo_cadastro');
+            $table->unsignedBigInteger('usuario_indicacao')->nullable();
+            $table->foreign('usuario_indicacao')->references('id')->on('users');
             $table->timestamps();
         });
     }

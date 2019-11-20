@@ -16,12 +16,12 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'nome', 'email', 'telefone', 'cpf', 'usuario_convite'
+        'nome', 'email', 'telefone', 'cpf', 'tipo_cadastro', 'usuario_indicacao'
     ];
 
-    public function usuarioConvite()
+    public function usuarioIndicacao()
     {
-        return $this->belongsTo('App\Models\User', 'usuario_convite');
+        return $this->belongsTo('App\Models\User', 'usuario_indicacao');
     }
 
     public function link()

@@ -9,6 +9,6 @@ class LinkRepository
 
     public function getByHash($hash)
     {
-        return Link::where('hash', '=', $hash)->first();
+        return Link::where('hash', '=', $hash)->with('usuario')->first();
     }
 }
