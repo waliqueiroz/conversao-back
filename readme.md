@@ -14,6 +14,7 @@ Execute o comando abaixo pelo terminal dentro do diretório raiz da aplicação.
 ```
 composer install
 ```
+O composer criará a pasta `Vendor` dentro do diretório raiz com todas as bibliotecas necessárias para o funcionamento da API.
 
 ### 2.2 Configurar ambiente
 
