@@ -20,7 +20,7 @@ O composer criará a pasta `Vendor` dentro do diretório raiz com todas as bibli
 
 Dentro do diretório raiz temos o arquivo `.env.example` que serve como base para as configurações padrão do sistema. Você deve criar uma cópia desse arquivo com nome `.env` e editar conforme às necessidades do servidor/aplicação.
 
-A primeira configuração que devemos fazer é a de gerar a chave da aplicação, digitando o commando:
+A primeira configuração que você deve fazer é a de gerar a chave da aplicação, digitando o comando:
 
 ```
 php artisan key:generate
