@@ -1,6 +1,6 @@
 # API REST para cadastro e usuários
 
-A API foi desenvolvida com o framework Laravel.
+API, desenvolvida com Laravel, responsável por receber e processar requisições feitas por [esta aplicação simples](https://github.com/waliqueiroz/conversao-front). 
 
 ## 1. Pré-requisitos
 
