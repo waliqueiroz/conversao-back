@@ -1,5 +1,7 @@
 # API REST para cadastro e usuários
 
+A API foi construída com o framework Laravel.
+
 ## 1. Pré-requisitos
 
 - [PHP 7.2 ou superior](https://www.php.net/)
