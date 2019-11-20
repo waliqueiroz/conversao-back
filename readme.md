@@ -49,7 +49,7 @@ MAIL_PASSWORD=null
 MAIL_ENCRYPTION=null
 ```
 
-Para realização de testes, recomendo o uso do [Mailtrap](https://mailtrap.io/). Ao enviar um e-mail utilizando os dados do mailtrap.io, no próprio painel da ferramenta é possível analisar os dados do e-mail, como por exemplo remetente, destinatário, corpo do e-mail, assunto, etc. É uma ferramenta de testes, o e-mail não é efetivamente enviado para o destinatário, ela dá uma visão geral de como será feita a entrega.
+Para realização de testes, recomendo o uso do [Mailtrap](https://mailtrap.io/). Ao enviar um e-mail utilizando os dados do mailtrap.io, no próprio painel da ferramenta é possível analisar os dados do e-mail como, por exemplo, remetente, destinatário, corpo do e-mail, assunto, etc. É uma ferramenta de testes, o e-mail não é efetivamente enviado para o destinatário, ela dá uma visão geral de como será feita a entrega.
 
 Com a base de dados e o servidor de emails configurado, execute o comando abaixo para a aplicação gerar as tabelas:
 
