@@ -25,7 +25,7 @@ A primeira configuração que você deve fazer é a de gerar a chave da aplicaç
 ```
 php artisan key:generate
 ```
-Após executar esse comando, no arquivo `.env` teremos a variável APP_KEY configurada com a chave gerada.
+Após executar esse comando, no arquivo `.env` você terá a variável APP_KEY configurada com a chave gerada.
 
 Crie uma base de dados para a aplicação e configure o acesso ao banco através das variáveis de ambiente `DB_CONNECTION`, `DB_PORT`, `DB_HOST`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`:
 
