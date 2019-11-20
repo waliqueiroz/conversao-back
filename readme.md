@@ -1,12 +1,9 @@
-# Robô Crawler
+# API REST para cadastro e usuários
 
-<a id="pre-requisitos"></a>
 ## 1. Pré-requisitos
 
 - [PHP 7.2 ou superior](https://www.php.net/)
 - [Composer](https://getcomposer.org/)
-
-<a id="principais-ferramentas"></a>
 
 ##  2. Instalação
 
@@ -20,7 +17,7 @@ composer install
 
 ### 2.2 Configurar ambiente
 
-Dentro do diretório raiz temos o arquivo .env.example que serve como base para as configurações padrão do sistema. Você deve criar uma cópia desse arquivo com nome .env e editar conforme às necessidades do servidor/aplicação.
+Dentro do diretório raiz temos o arquivo `.env.example` que serve como base para as configurações padrão do sistema. Você deve criar uma cópia desse arquivo com nome `.env` e editar conforme às necessidades do servidor/aplicação.
 
 A primeira configuração que devemos fazer é a de gerar a chave da aplicação, digitando o commando:
 
